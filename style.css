@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --size-16: 1rem;
+    --size-24: 1.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --sidebar-background-color: rgb(244, 67, 54);
+    --main-background-color: white;
+    --main-text-color: black;
+    --color-text-white: white;
+}
+
+html,
+body {
+    font-size: var(--size-base);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+/* HR */
+hr {
+    margin: 1.25rem 0;
+    width: 3.75rem;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+/* Side bar */
+.sidebar {
+    padding: 8px 16px;
+    background-color: rgb(244, 67, 54);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 18.75rem;
+    height: 100vh;
+}
+
+.logo {
+    padding: 0 1rem;
+}
+
+.text-logo {
+    font-size: var(--size-24);
+    color: var(--color-text-white);
+    padding: 4rem 0;
+}
+
+.text-logo b {
+    font-weight: 600;
+}
+
+.link a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: var(--color-text-white);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.link a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+/* Page content */
+
+.page-content {
+    margin-left: 21.25rem;
+}
+
+.header-section {
+    margin-top: 5rem;
+    padding: 0 1rem;
+}
+
+.text-heading {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0.625rem 0;
+}
+
+.section-heading {
+    font-size: 3rem;
+    color: rgb(244, 67, 54);
+    font-weight: 600;
+    margin: 0.625rem 0;
+}
+
+
+
+
+
+
+/* Photo grid */
+
+.photo-grid {
+    margin: 0 0.5rem;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.photo img {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+
+
+
+
+/* services */
+
+.services-section {
+    margin-top: 4.688rem;
+    padding: 0 1rem;
+}
+
+.services-section p {
+    margin: 1rem 0;
+}
+
+/* The team */
+
+.team-grid {
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.team-member {
+    width: 33.33333%;
+    padding: 0 0.5rem;
+}
+
+.member {
+    background-color: #f1f1f1;
+}
+
+.member img {
+    width: 100%;
+}
+
+.member-container {
+    padding: 0 1rem;
+}
+
+.member-name {
+    margin: 0.625rem 0;
+    font-size: var(--size-24);
+    font-weight: 400;
+}
+
+.member-cv {
+    display: inline;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.member-des {
+    display: inline-block;
+}
