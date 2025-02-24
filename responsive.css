@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .sidebar {
+        display: none !important;
+    }
+
+    .active {
+        display: block !important;
+    }
+
+    .page-content {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .photo,
+    .team-grid,
+    .list-tables {
+        display: block !important;
+    }
+
+    .team-member,
+    .table {
+        width: 100% !important;
+    }
+
+    .table {
+        margin-bottom: 16px;
+    }
+}

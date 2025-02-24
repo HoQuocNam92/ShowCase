@@ -23,6 +23,39 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 999;
+}
+
+
+
+#navbar {
+    background-color: rgb(244, 67, 54);
+    padding: 0.5rem 1rem;
+    color: #fff;
+
+}
+
+#navbar a {
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    display: inline-block;
+}
+
+#navbar span {
+    font-size: 1.5rem;
+
+}
+
 
 
 
@@ -45,13 +78,31 @@ hr {
 
 /* Side bar */
 .sidebar {
-    padding: 8px 16px;
     background-color: rgb(244, 67, 54);
     position: fixed;
     top: 0;
     left: 0;
     width: 18.75rem;
     height: 100vh;
+    z-index: 1000;
+}
+
+.sidebar-content {
+    padding: 0.5rem 1rem;
+}
+
+.sidebar-header {
+    font-size: var(--size-24);
+    color: var(--color-text-white);
+    padding: 0.5rem 1rem;
+    text-align: center;
+    display: none;
+}
+
+.sidebar-header:hover {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
 }
 
 .logo {
@@ -90,6 +141,7 @@ hr {
 
 .page-content {
     margin-left: 21.25rem;
+    margin-right: 2.5rem;
 }
 
 .header-section {
@@ -183,4 +235,125 @@ hr {
 
 .member-des {
     display: inline-block;
+}
+
+.service-des {
+    margin: 1rem 0;
+}
+
+.list-tables {
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.table {
+    width: 50%;
+    padding: 0 0.5rem;
+    text-align: center;
+}
+
+.items {
+    list-style: none;
+}
+
+.items-package-basic {
+    background-color: rgb(97, 97, 97) !important;
+    padding: 2rem 1rem !important;
+    color: #fff;
+    font-size: 24px;
+
+}
+
+.items-package-pro {
+    background-color: rgb(244, 67, 54) !important;
+    padding: 2rem 1rem !important;
+    color: #fff;
+    font-size: 24px;
+}
+
+.items li {
+    padding: 1rem;
+    background-color: rgb(221, 221, 221);
+}
+
+.items h2 {
+    margin: 0.625rem 0;
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+
+.items button {
+    padding: 0.75rem 1.5rem;
+}
+
+.items-button-basic {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.items-button-pro {
+    background-color: rgb(244, 67, 54);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.items-button-pro:hover {
+    background-color: #000;
+}
+
+
+
+
+
+/* Contact */
+
+.contact-section {
+    margin-top: 4.688rem;
+    padding: 0 1rem;
+}
+
+.section-form {
+    margin: 1rem 0;
+}
+
+.section-form input {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.send-btn {
+    background-color: rgb(244, 67, 54);
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.send-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    background-color: rgb(241, 241, 241);
+    margin-top: 2rem;
+    margin-left: -21.25rem;
+}
+
+.footer p {
+
+    text-align: right;
+    padding: 2rem 1rem;
 }

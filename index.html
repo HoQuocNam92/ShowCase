@@ -6,28 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <div id="main">
+        <div id="overlay"></div>
+        <div id="navbar">
+            <a class="navbar" href="#"> <i class="fa-solid fa-bars"></i></a>
+            <span>Company Name</span>
+        </div>
         <!-- Side bar -->
         <div class="sidebar">
+            <div class="sidebar-header">Close Menu</div>
             <br>
-            <div class="logo">
-                <h3 class="text-logo"><b>Company
-                        <br>
-                        Name
-                    </b></h3>
-            </div>
-            <div class="link">
-                <a href="#">Home</a>
-                <a href="#">Showcase</a>
-                <a href="#">Services</a>
-                <a href="#">Designers</a>
-                <a href="#">Packages</a>
-                <a href="#">Contact</a>
+            <div class="sidebar-content">
+                <div class="logo">
+                    <h3 class="text-logo"><b>Company
+                            <br>
+                            Name
+                        </b></h3>
+                </div>
+                <div class="link">
+                    <a href="#">Home</a>
+                    <a href="#">Showcase</a>
+                    <a href="#">Services</a>
+                    <a href="#">Designers</a>
+                    <a href="#">Packages</a>
+                    <a href="#">Contact</a>
+                </div>
             </div>
         </div>
         <!-- Page content -->
@@ -142,9 +152,87 @@
             <div class="services-section">
                 <h1 class="section-heading">Packages.</h1>
                 <hr>
+                <p class="service-des">Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure
+
+                </p>
+                <div class="list-tables">
+                    <div class="table">
+                        <ul class="items">
+                            <li class="items-package-basic">Basic</li>
+                            <li>Floorplanning
+                            </li>
+                            <li>10 hours support
+                            </li>
+                            <li>Photography
+                            </li>
+                            <li>20% furniture discount
+                            </li>
+                            <li>Good deals
+                            </li>
+                            <li>
+                                <h2>$ 199</h2>
+                                <span>per room
+                                </span>
+                            </li>
+                            <li><button class="items-button-basic">Sign Up</button></li>
+                        </ul>
+                    </div>
+                    <div class="table">
+                        <ul class="items">
+                            <li class="items-package-pro">Pro</li>
+                            <li>Floorplanning
+                            </li>
+                            <li>10 hours support
+                            </li>
+                            <li>Photography
+                            </li>
+                            <li>50% furniture discount
+
+                            </li>
+                            <li>GREAT deals
+
+                            </li>
+                            <li>
+                                <h2>$ 249</h2>
+                                <span>per room
+                                </span>
+                            </li>
+                            <li><button class="items-button-pro">Sign Up</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact -->
+            <div class="contact-section">
+                <h1 class="section-heading">Contact.</h1>
+                <hr>
+                <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love
+                    meeting new people!
+                </p>
+                <div class="section-form">
+                    <label for="">Name</label>
+                    <input type="text">
+                </div>
+                <div class="section-form">
+                    <label for="">Email</label>
+                    <input type="text">
+                </div>
+                <div class="section-form">
+                    <label for="">Message</label>
+                    <input type="text">
+                </div>
+                <button class="send-btn">Send Message</button>
+            </div>
+            <!-- Footer -->
+            <div class="footer">
+                <p>Powered by Nam Coder</p>
             </div>
         </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 
 </html>
